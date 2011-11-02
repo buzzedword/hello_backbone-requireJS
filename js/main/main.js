@@ -9,7 +9,7 @@ require(
 	},
 	["main"],
 	function(){
-		require(['require', 'jquery', 'underscore', 'backbone'], function(require){
+		require(['require', 'order!jquery', 'order!underscore', 'order!backbone'], function(require){
 			Backbone.sync = function(method, model, success, error){
 				success();
 			}
